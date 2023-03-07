@@ -1,3 +1,3 @@
-const a = "world";
+import { helloGenerator } from "./functions";
 
-console.log("Hello", a);
+console.log(helloGenerator(process.env.WORLD));

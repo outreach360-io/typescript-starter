@@ -1,0 +1,5 @@
+services:
+  your-app:
+    build: .
+    env_file:
+      - .env

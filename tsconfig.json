@@ -1,13 +1,23 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
     "strict": true,
-    "module": "ES2022",
-    "lib": ["ES2022"],
-    "target": "ES2022",
+    "lib": ["ESNext"],
     "esModuleInterop": true,
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "moduleResolution": "nodenext"
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "esm": true
   }
 }
