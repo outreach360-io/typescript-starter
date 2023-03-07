@@ -33,6 +33,12 @@ Hello World! 😁
 
 There are different modes of running your app available. Choose the one that fits your needs the best.
 
+- [Dev with hot-reloading](#dev-with-hot-reloading)
+- [Dev without hot-reloading](#dev-without-hot-reloading)
+- [Build and Run](#build-and-run)
+- [Docker](#docker)
+- [Docker Compose](#docker-compose)
+
 *If you are unsure, start with [Dev with hot-reloading](#dev-with-hot-reloading).*
 
 
